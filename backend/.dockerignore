@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.env
+spend_analytics.db
+statements_inbox/*.pdf

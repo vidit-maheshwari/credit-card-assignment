@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8009:8009"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/statements_inbox:/app/statements_inbox
+      - backend_db:/app/data
+    environment:
+      - DATABASE_URL=sqlite:////app/data/spend_analytics.db
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5174:5174"
+    depends_on:
+      - backend
+
+volumes:
+  backend_db:
