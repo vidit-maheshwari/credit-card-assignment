@@ -8,8 +8,8 @@ A local agentic tool that ingests credit card PDF statements, extracts transacti
 ┌─────────────────┐       ┌──────────────────────────────────────┐
 │   React + Vite  │◄─────►│         FastAPI Backend               │
 │   Frontend      │  API  │                                      │
-│   (Port 5173)   │       │  ┌──────────────────────────────┐   │
-└─────────────────┘       │  │  Groq LLM (llama-3.3-70b)    │   │
+│   (Port 5174)   │       │  ┌──────────────────────────────┐   │
+└────────────────┘       │  │  Groq LLM (llama-3.3-70b)    │   │
                           │  │  - PDF Statement Parsing      │   │
                           │  │  - Chat Agent (Intent/Tools)  │   │
                           │  └──────────────────────────────┘   │
@@ -81,7 +81,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs on http://localhost:5173
+Frontend runs on http://localhost:5174
 
 ### Using the App
 
