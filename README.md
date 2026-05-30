@@ -91,6 +91,10 @@ Frontend runs on http://localhost:5174
 4. View analytics on the Dashboard, Transactions, and Trends tabs
 5. Ask questions in the "Ask Agent" tab
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/kqMsFS0oIB8/maxresdefault.jpg)](https://youtu.be/kqMsFS0oIB8)
+
 ## Tech Stack
 
 - **Backend**: Python, FastAPI, SQLAlchemy, SQLite, pdfplumber, Groq SDK
